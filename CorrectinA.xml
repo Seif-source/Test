@@ -1,0 +1,18 @@
+<project>
+    <properties>
+        <java.version>17</java.version>
+        <saml2.version>6.1.1</saml2.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-saml2-service-provider</artifactId>
+            <version>${saml2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.opensaml</groupId>
+            <artifactId>opensaml-core</artifactId>
+            <version>4.1.1</version>
+        </dependency>
+    </dependencies>
+</project>
