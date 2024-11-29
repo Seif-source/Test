@@ -1,0 +1,17 @@
+<project>
+    <properties>
+        <java.version>17</java.version>
+        <spring.boot.version>3.4.0</spring.boot.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-saml2-service-provider</artifactId>
+            <version>6.1.1</version>
+        </dependency>
+    </dependencies>
+</project>
