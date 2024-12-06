@@ -1,0 +1,12 @@
+Voici un exemple de rédaction des règles métiers au format présenté :
+
+| **Règles** | **Descriptions** |
+|------------|-------------------|
+| **R0**     | Si l'attribut de session `ST0FAH` est absent, rediriger l'utilisateur vers la page d'erreur `ProblemeConnecteur.jsp`. |
+| **R1**     | L'accès aux menus et actions est déterminé par le rôle de l'utilisateur défini dans `JS0FAH.getCH1LK8()`. Par exemple : les utilisateurs avec le rôle `"INTERV"` ont accès à "Commandes" et "Résultats". |
+| **R2**     | Une déconnexion automatique est déclenchée après une période définie, dépendant du rôle de l'utilisateur : 10 minutes pour les rôles standards, 16 minutes pour des rôles spécifiques comme `"TUTEUR"`. |
+| **R3**     | La section "News" est affichée uniquement si la valeur de `JS0FAH.getCH1LK7()` est `"OUI"`. |
+| **R4**     | Une alerte JavaScript s'affiche si un utilisateur tente d'accéder à un menu non autorisé. |
+| **R5**     | Le logo de la page est personnalisé dynamiquement en fonction des propriétés de configuration via l'objet `TagImage`. |
+
+Si vous souhaitez compléter ou adapter ces règles en fonction d'autres éléments, n'hésitez pas à me le préciser.
